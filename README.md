@@ -44,6 +44,7 @@ so make sure to provide the project-name and prefixes as necessary
 | <a name="input_project-name"></a> [project-name](#input\_project-name) | used as the main part of the name of the user assigned identity | `string` | n/a | yes |
 | <a name="input_resource-group-name"></a> [resource-group-name](#input\_resource-group-name) | resource group where you want to create the user assigned identity | `string` | n/a | yes |
 | <a name="input_resource-name-prefixes"></a> [resource-name-prefixes](#input\_resource-name-prefixes) | value for the prefixes of the user assigned identity | `list(string)` | `[]` | no |
+| <a name="input_tags"></a> [tags](#input\_tags) | tags to be applied to the user assigned identity | `map(string)` | `{}` | no |
 
 ## Outputs
 
