@@ -34,3 +34,9 @@ variable "permissions" {
   default = []
   description = "list of permissions to be granted to the user assigned identity"
 }
+
+variable "tags" {
+  type = map(string)
+  default = {}
+  description = "tags to be applied to the user assigned identity"
+}
