@@ -1,4 +1,4 @@
-# tfm-azure-managed-identity
+# tfm-azure-managed-identities
 
 Creates user assigned managed identity and grants it permissions to Azure AD Applications.
 
