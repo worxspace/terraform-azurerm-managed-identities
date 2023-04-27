@@ -6,12 +6,8 @@ terraform {
       source  = "aztfmod/azurecaf"
     }
     azuread = {
-      version = ">=2.37.2"
+      version = ">=2.34.2"
       source  = "hashicorp/azuread"
     }
   }
-}
-
-provider "azurerm" {
-  features {}
 }
